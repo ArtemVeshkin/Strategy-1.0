@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\AV\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\AV\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Strategy 1.0.-1874447924.00" t="ExcludeRecursive" />
-    <e p="D:\GameDev\Strategy-1.0\Strategy 1.0" t="IncludeRecursive">
+    <e p="C:\GameDev\Strategy-1.0\Strategy-1.0\Strategy 1.0" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\Scripts" t="Include">
-        <e p="CameraMovement.cs" t="Include" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CameraMovement.cs" t="Include" />
+          <e p="ResControll.cs" t="Include" />
+          <e p="UnitControll.cs" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
@@ -16,5 +18,7 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="C:\Users\Artem\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Artem\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Strategy 1.0.-322389704.00" t="ExcludeRecursive" />
   </component>
 </project>

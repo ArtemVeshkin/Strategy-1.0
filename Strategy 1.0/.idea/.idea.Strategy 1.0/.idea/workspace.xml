@@ -50,22 +50,56 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="869744957">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="982" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="982" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnitControll.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
-                <marker date="1548334349024" expanded="true" signature="64:1301" ph="{...}" />
-                <marker date="1548334349024" expanded="true" signature="203:285" ph="{...}" />
-                <marker date="1548334349024" expanded="true" signature="313:1299" ph="{...}" />
-                <marker date="1548334349024" expanded="true" signature="401:508" ph="{...}" />
-                <marker date="1548334349024" expanded="true" signature="581:700" ph="{...}" />
-                <marker date="1548334349024" expanded="true" signature="767:898" ph="{...}" />
-                <marker date="1548334349024" expanded="true" signature="988:1131" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="62:1551" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="217:275" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="303:1234" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="346:630" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="522:620" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="735:1024" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="1144:1228" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="1270:1549" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="1349:1394" ph="{...}" />
+                <marker date="1548619720596" expanded="true" signature="1493:1543" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,11 +112,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResControll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UnitControll.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResControll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnitControll.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +142,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -126,17 +168,13 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,11 +216,18 @@
       <updated>1548328736255</updated>
       <workItem from="1548328740952" duration="102000" />
       <workItem from="1548328897729" duration="3411000" />
+      <workItem from="1548389225719" duration="2549000" />
+      <workItem from="1548426029171" duration="16000" />
+      <workItem from="1548617738736" duration="1452000" />
+      <workItem from="1548619239697" duration="6000" />
+      <workItem from="1548619529337" duration="745000" />
+      <workItem from="1548620292910" duration="62000" />
+      <workItem from="1548620371439" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3513000" />
+    <option name="totallyTimeSpent" value="8405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,10 +239,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17068273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17770271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,18 +290,35 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/main.unity">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResControll.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="305">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnitControll.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <marker date="1548334349024" expanded="true" signature="64:1301" ph="{...}" />
-            <marker date="1548334349024" expanded="true" signature="203:285" ph="{...}" />
-            <marker date="1548334349024" expanded="true" signature="313:1299" ph="{...}" />
-            <marker date="1548334349024" expanded="true" signature="401:508" ph="{...}" />
-            <marker date="1548334349024" expanded="true" signature="581:700" ph="{...}" />
-            <marker date="1548334349024" expanded="true" signature="767:898" ph="{...}" />
-            <marker date="1548334349024" expanded="true" signature="988:1131" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="62:1551" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="217:275" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="303:1234" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="346:630" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="522:620" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="735:1024" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="1144:1228" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="1270:1549" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="1349:1394" ph="{...}" />
+            <marker date="1548619720596" expanded="true" signature="1493:1543" ph="{...}" />
           </folding>
         </state>
       </provider>

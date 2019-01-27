@@ -16,21 +16,17 @@ public class CameraMovement : MonoBehaviour {
         Vector3 CamPos = transform.position;
         if (Input.mousePosition.x <= 20) {
             CamPos.x -= Time.deltaTime * speed;
-            //CamPos.z += Time.deltaTime * speed;
         }
         else
             if (Input.mousePosition.x >= ScreenWidth - 20) {
                 CamPos.x += Time.deltaTime * speed;
-                //CamPos.z -= Time.deltaTime * speed;
             }
             else
                 if (Input.mousePosition.y <= 20) {
-                    //CamPos.x -= Time.deltaTime * speed;
                     CamPos.z -= Time.deltaTime * speed;
                 }
                 else
                     if (Input.mousePosition.y >= ScreenHeigth - 20) {
-                        //CamPos.x += Time.deltaTime * speed;
                         CamPos.z += Time.deltaTime * speed;
                     }
 
