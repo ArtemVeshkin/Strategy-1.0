@@ -5,13 +5,17 @@ public class UnitControll : MonoBehaviour {
     public  float    Duration;
     private bool     IsRunning;
     private Animator anim;
+    public  bool     IsSelected;
 
     private void Start() {
         anim = GetComponentInChildren<Animator>();
+        GameObject  Controller = GameObject.FindGameObjectWithTag("GameController");
+        ResControll Resources  = Controller.GetComponent<ResControll>();
+        Resources.NewUnit(gameObject);
     }
 
     private void Update() {
-        if (Input.GetMouseButtonDown(1)) {
+        if (Input.GetMouseButtonDown(1) && IsSelected) {
             Ray        ray;
             RaycastHit hit;
 
